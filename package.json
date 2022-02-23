@@ -1,0 +1,18 @@
+{
+  "name": "zazu-dark-theme",
+  "version": "1.0.5",
+  "description": "A dark theme for Zazu.",
+  "scripts": {
+    "preversion": "npm run build && git add .",
+    "postversion": "git push && git push --tags",
+    "bump": "npm version patch -m 'v%s'",
+    "start": "stylus src/main.styl -o dist -w",
+    "build": "stylus src/main.styl -o dist"
+  },
+  "author": "Ian Sinnott",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "stylus": "^0.54.5"
+  }
+}
