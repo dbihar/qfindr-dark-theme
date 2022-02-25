@@ -13,7 +13,7 @@ section#zazu {
 section#zazu input {
   font-weight: 300;
   outline: none;
-  font-size: 40px;
+  font-size: 30px;
   width: 500px;
   padding: 12px;
   border: 0;
@@ -65,7 +65,7 @@ section#zazu div.results ul li .icon {
 section#zazu div.results ul li h2,
 section#zazu div.results ul li h3 {
   margin: 0;
-  padding-left: 10px;
+  padding-left: 40px;
   color: #e6e6e6;
   white-space: nowrap;
   overflow: hidden;
@@ -73,16 +73,16 @@ section#zazu div.results ul li h3 {
   font-weight: 300;
 }
 section#zazu div.results ul li h2 {
-  font-size: 20px;
-  line-height: 25px;
+  font-size: 15px;
+  line-height: 20px;
   color: #d4d4d4;
 }
 section#zazu div.results ul li h2:last-child {
   font-size: 20px;
-  line-height: 45px;
+  line-height: 25px;
 }
 section#zazu div.results ul li h3 {
-  font-size: 15px;
+  font-size: 13px;
   line-height: 15px;
 }
 section#zazu div.results ul li.active {
