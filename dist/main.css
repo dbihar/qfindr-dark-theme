@@ -13,14 +13,14 @@ section#zazu {
 section#zazu input {
   font-weight: 300;
   outline: none;
-  font-size: 30px;
-  width: 500px;
+  font-size: 24px;
+  width: 780px;
   padding: 12px;
   border: 0;
   background-color: transparent;
   -webkit-app-region: no-drag;
   cursor: auto;
-  color: rgba(255,255,255,0.9);
+  color: rgba(254, 255, 255, 0.9);
 }
 section#zazu iframe#preview {
   border: 0;
@@ -33,8 +33,8 @@ section#zazu div.results ul {
   padding: 0;
   margin: 0;
   border-top: 1px solid #202020;
-  max-height: 333px;
-  overflow: hidden;
+  max-height: 600px;
+  overflow: visible;
   width: 50%;
 }
 section#zazu div.results ul:last-child {
@@ -45,15 +45,15 @@ section#zazu div.results ul + div {
 }
 section#zazu div.results ul li {
   display: block;
-  height: 45px;
-  line-height: 45px;
-  border-bottom: 1px solid #202020;
+  height: 55px;
+  line-height: 55px;
+  border-bottom: 3px solid #202020;
   -webkit-app-region: no-drag;
   cursor: pointer;
   width: 100%;
 }
 section#zazu div.results ul li .icon {
-  color: #e6e6e6;
+  color: #e4ddff;
   text-align: center;
   line-height: 30px;
   height: 30px;
@@ -66,9 +66,9 @@ section#zazu div.results ul li h2,
 section#zazu div.results ul li h3 {
   margin: 0;
   padding-left: 40px;
-  color: #e6e6e6;
-  white-space: nowrap;
-  overflow: hidden;
+  color: #cdbfff;
+  white-space: pre-wrap;
+  overflow: visible;
   text-overflow: ellipsis;
   font-weight: 300;
 }
