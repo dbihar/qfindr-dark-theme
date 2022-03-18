@@ -92,10 +92,14 @@ section#zazu div.results ul li h2:last-child {
   font-size: 20px;
   line-height: 25px;
 }
-section#zazu div.results ul li h3,
-section#zazu div.results ul li h4 {
-  font-size: 13px;
-  line-height: 15px;
+section#zazu div.results ul li h3{
+  font-size: 14px;
+  line-height: 17px;
+}
+
+section#zazu div.results ul li h4{
+  font-size: 12px;
+  line-height: 14px;
 }
 section#zazu div.results ul li.active {
   background-color: #353535;
