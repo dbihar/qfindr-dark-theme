@@ -2,6 +2,6 @@
   "name": "Dark Theme",
   "version": "1.0.0",
   "author": "iansinnott",
-  "description": "A basic dark theme for Zazu",
+  "description": "A basic dark theme for qFindr",
   "stylesheet": "dist/main.css"
 }
