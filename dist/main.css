@@ -3,7 +3,7 @@ body {
   margin: 0;
   padding: 0;
   font-size: 20px;
-  font-family: 'Helvetica Neue', 'Sans Unicode', 'Lucida Grande', sans-serif;
+  font-family: 'Open Sans', 'Sans Unicode', 'Lucida Grande', sans-serif;
 }
 section#zazu {
   background-color: #212121;
@@ -12,41 +12,10 @@ section#zazu {
   opacity: 0.97;
 }
 
-section#zazu div.opts {
-  display: flex;
-  flex-direction: row;
-}
-section#zazu div.opts ul {
-  padding: 0;
-  margin: 0;
-  border-top: 2px solid #131313;
-  max-height: 600px;
-  overflow: visible;
-  width: 50%;
-}
-section#zazu div.opts ul li {
-  display: block;
-  height: 20px;
-  line-height: 20px;
-  border-bottom: 2px solid #1a1919;
-  -webkit-app-region: no-drag;
-  cursor: pointer;
-  width: 100%;
-}
-section#zazu div.opts ul li h2,
-section#zazu div.opts ul li h3{
-  margin: 0;
-  padding-left: 60px;
-  color: #cdbfff;
-  white-space: pre-wrap;
-  overflow: visible;
-  text-overflow: ellipsis;
-  font-weight: 300;
-}
 section#zazu div.results ul li h2 h3 {
   font-size: 10px;
   line-height: 10px;
-  color: #d4d4d4;
+  color: #f0f0f0;
 }
 
 section#zazu input {
@@ -59,7 +28,7 @@ section#zazu input {
   background-color: transparent;
   -webkit-app-region: no-drag;
   cursor: auto;
-  color: rgba(254, 255, 255, 0.9);
+  color: rgba(254, 255, 255, 1.0);
 }
 section#zazu iframe#preview {
   border: 1;
@@ -73,7 +42,7 @@ section#zazu div.results ul {
   padding: 0;
   margin: 0;
   border-top: 2px solid #131313;
-  max-height: 600px;
+  max-height: 800px;
   overflow: visible;
   width: 50%;
 }
@@ -85,9 +54,9 @@ section#zazu div.results ul + div {
 }
 section#zazu div.results ul li {
   display: block;
-  height: 65px;
-  line-height: 65px;
-  border-bottom: 2px solid #1a1919;
+  height: 56px;
+  line-height: 56px;
+  border-bottom: 1px solid #1a1919;
   -webkit-app-region: no-drag;
   cursor: pointer;
   width: 100%;
@@ -95,52 +64,75 @@ section#zazu div.results ul li {
 section#zazu div.results ul li .icon {
   color: #e4ddff;
   text-align: center;
-  line-height: 48px;
-  height: 48px;
-  width: 48px;
+  line-height: 40px;
+  height: 40px;
+  width: 40px;
   margin: 7.5px;
   float: left;
-  opacity: 0.95;
+  opacity: 0.99;
 }
+
+section#zazu div.results ul li .openButton {
+  color: #cdbfff;
+  text-align: center;
+  line-height: 40px;
+  height: 40px;
+  width: 40px;
+  margin: 7.5px;
+  position: absolute;
+  top: 60;
+  right: 2px;
+  opacity: 0.99;
+}
+
+section#zazu div.results ul li .openButton:hover {
+  color: #f6f4ff; 
+}
+
+
 section#zazu div.results ul li h2,
 section#zazu div.results ul li h3{
-  margin: 0;
-  padding-left: 60px;
+  margin: 4px;
+  padding-left: 56px;
+  padding-top: 10;
   color: #cdbfff;
   white-space: pre-wrap;
   overflow: visible;
   text-overflow: ellipsis;
   font-weight: 300;
+  width: 90%;
 }
 
 section#zazu div.results ul li h4 {
   margin: 0;
-  padding-left: 60px;
+  padding-left: 48px;
   color: #ffd6d6;
   white-space: pre-wrap;
   overflow: visible;
   text-overflow: ellipsis;
   font-weight: 100;
+  width: 100%;
 }
 
 section#zazu div.results ul li h2 {
   font-size: 20px;
-  line-height: 25px;
+  line-height: 28px;
+  padding-top: 10;
   color: #d4d4d4;
 }
 section#zazu div.results ul li h2:last-child {
   font-size: 20px;
-  line-height: 25px;
+  line-height: px;
 }
 section#zazu div.results ul li h3{
   font-size: 14px;
-  line-height: 17px;
+  line-height: 20px;
   opacity: 0.75;
 }
 
 section#zazu div.results ul li h4{
   font-size: 12px;
-  line-height: 14px;
+  line-height: 18px;
   opacity: 0.75;
 }
 section#zazu div.results ul li.active {
