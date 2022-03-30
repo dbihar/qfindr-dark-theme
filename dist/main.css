@@ -26,10 +26,13 @@ section#zazu input {
   width: 875px;
   padding: 12px;
   border: 0;
+  border-radius: 8px;
   -webkit-app-region: no-drag;
   cursor: auto;
   color: rgba(254, 255, 255, 1.0);
   background-color: #292929;
+  border-bottom: 4px solid #13131300;
+  border-bottom-color: rgba(195, 226, 255, 0);
 }
 section#zazu iframe#preview {
   border: 1;
@@ -39,21 +42,25 @@ section#zazu div.results {
   background-color: #212121;
   display: flex;
   flex-direction: row;
+  border-radius: 8px;
 }
 section#zazu div.results ul {
   padding: 0;
   margin: 0;
-  border-top: 20px solid #13131300;
+  border-top: 0px solid #13131300;
   border-top-color: rgba(195, 226, 255, 0.212);
   max-height: 900px;
   overflow: visible;
   width: 50%;
+  border-radius: 8px;
 }
 section#zazu div.results ul:last-child {
   width: 100%;
+  border-radius: 8px;
 }
 section#zazu div.results ul + div {
   width: 50%;
+  border-radius: 8px;
 }
 section#zazu div.results ul li {
   display: block;
