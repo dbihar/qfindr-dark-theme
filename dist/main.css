@@ -6,13 +6,14 @@ body {
   font-family: 'Open Sans', 'Sans Unicode', 'Lucida Grande', sans-serif;
 }
 section#zazu {
-  background-color: #212121;
+  background-color: transparent;
   -webkit-app-region: drag;
   cursor: move;
   opacity: 0.97;
 }
 
 section#zazu div.results ul li h2 h3 {
+  background-color: #212121;
   font-size: 10px;
   line-height: 10px;
   color: #f0f0f0;
@@ -22,27 +23,29 @@ section#zazu input {
   font-weight: 300;
   outline: none;
   font-size: 26px;
-  width: 780px;
+  width: 875px;
   padding: 12px;
   border: 0;
-  background-color: transparent;
   -webkit-app-region: no-drag;
   cursor: auto;
   color: rgba(254, 255, 255, 1.0);
+  background-color: #292929;
 }
 section#zazu iframe#preview {
   border: 1;
 }
 
 section#zazu div.results {
+  background-color: #212121;
   display: flex;
   flex-direction: row;
 }
 section#zazu div.results ul {
   padding: 0;
   margin: 0;
-  border-top: 2px solid #131313;
-  max-height: 800px;
+  border-top: 20px solid #13131300;
+  border-top-color: rgba(195, 226, 255, 0.212);
+  max-height: 900px;
   overflow: visible;
   width: 50%;
 }
@@ -62,7 +65,7 @@ section#zazu div.results ul li {
   width: 100%;
 }
 section#zazu div.results ul li .icon {
-  color: #e4ddff;
+  color: #bad6fd;
   text-align: center;
   line-height: 40px;
   height: 40px;
@@ -73,7 +76,7 @@ section#zazu div.results ul li .icon {
 }
 
 section#zazu div.results ul li .openButton {
-  color: #cdbfff;
+  color: #bad6fd;
   text-align: center;
   line-height: 40px;
   height: 40px;
@@ -95,7 +98,7 @@ section#zazu div.results ul li h3{
   margin: 4px;
   padding-left: 56px;
   padding-top: 10;
-  color: #cdbfff;
+  color: #f5f9ff;
   white-space: pre-wrap;
   overflow: visible;
   text-overflow: ellipsis;
@@ -106,7 +109,7 @@ section#zazu div.results ul li h3{
 section#zazu div.results ul li h4 {
   margin: 0;
   padding-left: 48px;
-  color: #ffd6d6;
+  color: #bad6fd;
   white-space: pre-wrap;
   overflow: visible;
   text-overflow: ellipsis;
@@ -118,7 +121,7 @@ section#zazu div.results ul li h2 {
   font-size: 20px;
   line-height: 28px;
   padding-top: 10;
-  color: #d4d4d4;
+  color: #f5f9ff;
 }
 section#zazu div.results ul li h2:last-child {
   font-size: 20px;
@@ -145,7 +148,7 @@ section#zazu div.results ul li.active h3 {
 }
 
 section#zazu div.results ul li.active h4 {
-  color: rgb(232, 228, 255);
+  color: rgb(238, 235, 255);
 }
 section#zazu div.results ul li:hover {
   background-color: #353535;
