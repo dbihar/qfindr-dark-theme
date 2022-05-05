@@ -9,7 +9,7 @@ body {
 
 body {
   overflow: scroll;
-  height: 20; /* define your custom height */
+  height: 40; /* define your custom height */
 }
 
 body::-webkit-scrollbar {
